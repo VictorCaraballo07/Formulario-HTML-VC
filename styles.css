@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(3, 33, 116, 0.315);
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+form {
+  background-color: rgba(127, 255, 212, 0.212);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label{
+  display:block;
+  margin-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="tel"] {
+  padding: 5px;
+  margin: 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}   
+input[type="submit"] {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
